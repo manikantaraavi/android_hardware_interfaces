@@ -4,4 +4,4 @@ service vendor.audio-hal-7-0 /vendor/bin/hw/android.hardware.audio@7.0-service.e
     group audio
     capabilities BLOCK_SUSPEND
     ioprio rt 4
-    task_profiles ServiceCapacityLow AudioAppPerformance
+    task_profiles ProcessCapacityHigh HighPerformance
